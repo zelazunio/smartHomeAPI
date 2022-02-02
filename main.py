@@ -20,14 +20,14 @@ db.generate_mapping(create_tables=True)
 
 api.add_resource(EnergyCounterAddPulses, '/EnergyCounterAddPulses')
 api.add_resource(EnergyCounterGetPulsesByHour, '/EnergyCounterGetPulsesByHour')
-api.add_resource(EnergyCounterGetPulsesByDay, '/EnergyCounterGetPulsesByDay') 
+#api.add_resource(EnergyCounterGetPulsesByDay, '/EnergyCounterGetPulsesByDay') 
   
 config_gpio()
 logging.info('GPIO configured')
 logging.info('Starting server')
 
 if __name__ == '__main__':
-    app.run(debug = False, host='0.0.0.0')
+    app.run(debug = True, host='0.0.0.0')
  
 #prev = 0
 #while True:

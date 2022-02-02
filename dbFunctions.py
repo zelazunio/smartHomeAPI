@@ -7,16 +7,15 @@ def get_energy_counter_pulses_by_hour(start_time=0, end_time=0):
     with db_session:
         query = select(((str(i.date.year) + '-' + str(i.date.month) + '-' + str(i.date.day) + ' ' + str(i.date.hour)),
                         sum(i.pulses))
-                       for i in EnergyCounterPulses
-                       if i.data >= datetime.datetime.fromtimestamp(
-            start_time / 1000.0) and i.data < datetime.datetime.fromtimestamp(end_time / 1000.0))
-        #entities = {'pulses': []}
-        #for e in query:
-            #date_elements = e[0].replace('-', ',')
-            #date_elements = date_elements.replace(' ', ',')
-            #date_elements_list = date_elements.split(',')
-            #entities.pulses[ = {'pulses': e[1]}
-        return query #entities
+                        for i in EnergyCounterPulses
+                         if i.date >= datetime.fromtimestamp(start_time / 1000.0) and
+                         i.date < datetime.fromtimestamp(end_time / 1000.0))
+        entities = {'pulsesByHour': {}}  
+        for e in query:
+            strptime = datetime.strptime(e[0], "%Y-%m-%d %H")
+            timestamp = int(datetime.timestamp(strptime))
+            entities['pulsesByHour'][timestamp] = e[1];
+        return entities
 
 
 # def getEnergyCounterPulsesByDay(startTime=0, endTime=0):
