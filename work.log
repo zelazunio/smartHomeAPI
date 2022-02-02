@@ -1,0 +1,140 @@
+INFO:root:Server started
+INFO:root:GPIO configured
+INFO:root:Starting server
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-05-09 08:27:09,329 Server started
+2021-05-09 08:27:09,402 GPIO configured
+2021-05-09 08:27:09,402 Starting server
+2021-05-09 08:27:09,451  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:12:12,885 ------------>> Program started
+2021-10-14 11:12:12,967 GPIO configured
+2021-10-14 11:12:12,967 Starting server
+2021-10-14 11:15:01,617 ------------>> Program started
+2021-10-14 11:15:01,682 GPIO configured
+2021-10-14 11:15:01,683 Starting server
+2021-10-14 11:15:01,731  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:16:16,100 ------------>> Program started
+2021-10-14 11:16:16,175 GPIO configured
+2021-10-14 11:16:16,175 Starting server
+2021-10-14 11:16:16,224  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:16:58,684 ------------>> Program started
+2021-10-14 11:16:58,749 GPIO configured
+2021-10-14 11:16:58,749 Starting server
+2021-10-14 11:16:58,798  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:17:32,883 192.168.1.100 - - [14/Oct/2021 11:17:32] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:17:35,811 192.168.1.100 - - [14/Oct/2021 11:17:35] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:17:41,446 192.168.1.100 - - [14/Oct/2021 11:17:41] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:17:42,841 192.168.1.100 - - [14/Oct/2021 11:17:42] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:17:44,064 192.168.1.100 - - [14/Oct/2021 11:17:44] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:18:46,837 ------------>> Program started
+2021-10-14 11:18:46,902 GPIO configured
+2021-10-14 11:18:46,902 Starting server
+2021-10-14 11:18:46,951  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:20:39,068 ------------>> Program started
+2021-10-14 11:20:39,132 GPIO configured
+2021-10-14 11:20:39,133 Starting server
+2021-10-14 11:20:39,181  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:21:13,812 ------------>> Program started
+2021-10-14 11:21:13,877 GPIO configured
+2021-10-14 11:21:13,877 Starting server
+2021-10-14 11:21:13,926  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:21:41,183 192.168.1.100 - - [14/Oct/2021 11:21:41] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:21:42,485 192.168.1.100 - - [14/Oct/2021 11:21:42] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:21:43,481 192.168.1.100 - - [14/Oct/2021 11:21:43] "GET /EnergyCounterGetPulsesByHour?startTime=1634248800000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:25:44,982 ------------>> Program started
+2021-10-14 11:25:45,060 GPIO configured
+2021-10-14 11:25:45,060 Starting server
+2021-10-14 11:25:45,112  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-14 11:26:11,278 192.168.1.100 - - [14/Oct/2021 11:26:11] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634335199999 HTTP/1.1" 200 -
+2021-10-14 11:26:23,726 192.168.1.100 - - [14/Oct/2021 11:26:23] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:26:31,741 192.168.1.100 - - [14/Oct/2021 11:26:31] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:26:33,677 192.168.1.100 - - [14/Oct/2021 11:26:33] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:26:38,857 192.168.1.100 - - [14/Oct/2021 11:26:38] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:26:46,981 192.168.1.100 - - [14/Oct/2021 11:26:46] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:33:59,751 192.168.1.100 - - [14/Oct/2021 11:33:59] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:34:01,835 192.168.1.100 - - [14/Oct/2021 11:34:01] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:34:03,168 192.168.1.100 - - [14/Oct/2021 11:34:03] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:34:19,143 192.168.1.100 - - [14/Oct/2021 11:34:19] "GET /EnergyCounterGetPulsesByDay?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:34:23,211 192.168.1.100 - - [14/Oct/2021 11:34:23] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:39:49,350 192.168.1.100 - - [14/Oct/2021 11:39:49] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:39:51,311 192.168.1.100 - - [14/Oct/2021 11:39:51] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:39:52,580 192.168.1.100 - - [14/Oct/2021 11:39:52] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:45:31,053 192.168.1.100 - - [14/Oct/2021 11:45:31] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 11:45:41,928 192.168.1.100 - - [14/Oct/2021 11:45:41] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634248799999 HTTP/1.1" 200 -
+2021-10-14 23:11:43,313 192.168.1.100 - - [14/Oct/2021 23:11:43] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634421599999 HTTP/1.1" 200 -
+2021-10-16 09:25:02,080 192.168.1.100 - - [16/Oct/2021 09:25:02] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634421599999 HTTP/1.1" 200 -
+2021-10-16 09:25:06,873 192.168.1.100 - - [16/Oct/2021 09:25:06] "GET /EnergyCounterGetPulsesByDay?startTime=1634162400000&endTime=1634421599999 HTTP/1.1" 200 -
+2021-10-16 09:25:12,628 192.168.1.100 - - [16/Oct/2021 09:25:12] "GET /EnergyCounterGetPulsesByHour?startTime=1634162400000&endTime=1634421599999 HTTP/1.1" 200 -
+2021-10-22 19:57:57,015 ------------>> Program started
+2021-10-22 19:58:33,750 ------------>> Program started
+2021-10-22 19:58:33,838 GPIO configured
+2021-10-22 19:58:33,838 Starting server
+2021-10-22 19:58:33,908  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-22 19:58:44,239 192.168.1.100 - - [22/Oct/2021 19:58:44] "GET /EnergyCounterGetPulsesByHour?startTime=1635026400000&endTime=1635199199999 HTTP/1.1" 200 -
+2021-10-22 19:58:46,267 192.168.1.100 - - [22/Oct/2021 19:58:46] "GET /EnergyCounterGetPulsesByHour?startTime=1635026400000&endTime=1635199199999 HTTP/1.1" 200 -
+2021-10-22 19:58:52,125 192.168.1.100 - - [22/Oct/2021 19:58:52] "GET /EnergyCounterGetPulsesByHour?startTime=1635026400000&endTime=1635199199999 HTTP/1.1" 200 -
+2021-10-22 20:00:50,267 192.168.1.100 - - [22/Oct/2021 20:00:50] "GET /EnergyCounterGetPulsesByHour?startTime=1634767200000&endTime=1635199199999 HTTP/1.1" 200 -
+2021-10-22 20:00:58,887 192.168.1.100 - - [22/Oct/2021 20:00:58] "GET /EnergyCounterGetPulsesByHour?startTime=1634767200000&endTime=1635199199999 HTTP/1.1" 200 -
+2021-10-22 20:01:05,734 192.168.1.100 - - [22/Oct/2021 20:01:05] "GET /EnergyCounterGetPulsesByHour?startTime=1633039200000&endTime=1635199199999 HTTP/1.1" 200 -
+2021-10-22 19:18:19,583 ------------>> Program started
+2021-10-22 19:18:48,157 ------------>> Program started
+2021-10-22 19:18:48,276 GPIO configured
+2021-10-22 19:18:48,277 Starting server
+2021-10-22 19:20:10,201 ------------>> Program started
+2021-10-22 19:20:10,266 GPIO configured
+2021-10-22 19:20:10,267 Starting server
+2021-10-22 19:21:33,424 ------------>> Program started
+2021-10-22 19:21:33,489 GPIO configured
+2021-10-22 19:21:33,490 Starting server
+2021-10-22 19:21:33,538  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-22 19:24:03,388 ------------>> Program started
+2021-10-22 19:24:03,453 GPIO configured
+2021-10-22 19:24:03,453 Starting server
+2021-10-22 19:24:03,501  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-22 19:26:56,667 ------------>> Program started
+2021-10-22 19:26:56,732 GPIO configured
+2021-10-22 19:26:56,732 Starting server
+2021-10-22 19:26:56,781  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-22 19:28:38,193 ------------>> Program started
+2021-10-22 19:28:38,258 GPIO configured
+2021-10-22 19:28:38,259 Starting server
+2021-10-22 19:28:38,312  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-22 19:30:09,228 ------------>> Program started
+2021-10-22 19:30:09,303 GPIO configured
+2021-10-22 19:30:09,304 Starting server
+2021-10-22 19:30:09,361  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-22 19:30:24,366 ------------>> Program started
+2021-10-22 19:30:24,440 GPIO configured
+2021-10-22 19:30:24,441 Starting server
+2021-10-22 19:30:24,497  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-10-24 02:57:41,890 ------------>> Program started
+2021-10-24 02:57:41,964 GPIO configured
+2021-10-24 02:57:41,964 Starting server
+2021-10-24 02:58:20,360 ------------>> Program started
+2021-10-24 02:58:20,425 GPIO configured
+2021-10-24 02:58:20,425 Starting server
+2021-10-24 03:01:39,003 ------------>> Program started
+2021-10-24 03:01:39,085 GPIO configured
+2021-10-24 03:01:39,086 Starting server
+2021-11-07 21:11:28,919 ------------>> Program started
+2021-11-07 21:11:28,985 GPIO configured
+2021-11-07 21:11:28,985 Starting server
+2021-11-07 21:16:13,359 ------------>> Program started
+2021-11-07 21:16:13,426 GPIO configured
+2021-11-07 21:16:13,426 Starting server
+2021-11-07 21:18:15,360 ------------>> Program started
+2021-11-07 21:18:15,455 GPIO configured
+2021-11-07 21:18:15,456 Starting server
+2021-11-07 21:18:58,255 ------------>> Program started
+2021-11-07 21:18:58,322 GPIO configured
+2021-11-07 21:18:58,323 Starting server
+2021-11-07 21:19:07,682 ------------>> Program started
+2021-11-07 21:19:07,747 GPIO configured
+2021-11-07 21:19:07,747 Starting server
+2021-11-07 21:21:22,116 ------------>> Program started
+2021-11-07 21:21:22,181 GPIO configured
+2021-11-07 21:21:22,181 Starting server
+2021-11-07 21:22:48,663 ------------>> Program started
+2021-11-07 21:22:48,729 GPIO configured
+2021-11-07 21:22:48,729 Starting server
+2021-11-07 21:22:48,790  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
