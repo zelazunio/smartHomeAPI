@@ -22,7 +22,7 @@ api.add_resource(EnergyCounterAddPulses, '/EnergyCounterAddPulses')
 api.add_resource(EnergyCounterGetPulsesByHour, '/EnergyCounterGetPulsesByHour')
 api.add_resource(EnergyCounterGetPulsesByDay, '/EnergyCounterGetPulsesByDay') 
   
-configGPIO()
+config_gpio()
 logging.info('GPIO configured')
 logging.info('Starting server')
 

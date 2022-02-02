@@ -1,14 +1,15 @@
 import RPi.GPIO as GPIO
 from dbFunctions import *
 
-def configGPIO() :
+
+def config_gpio() :
     GPIO.setmode(GPIO.BCM)
     
-    # Input 23 - input for energy counter
+    # Input 14 - input for energy counter
     GPIO.setup(14, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
     def pin14callback(channel):
-        addPulsesToEnergyCounter()
+        add_pulses_to_energy_counter()
     
     GPIO.add_event_detect(14, GPIO.RISING, callback=pin14callback, bouncetime=500)
     
