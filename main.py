@@ -27,7 +27,7 @@ logging.info('GPIO configured')
 logging.info('Starting server')
 
 if __name__ == '__main__':
-    app.run(debug = True, host='0.0.0.0')
+    app.run(debug = False, host='0.0.0.0')
  
 #prev = 0
 #while True:

@@ -37,8 +37,8 @@ def get_energy_counter_pulses_by_hour(start_time=0, end_time=0):
 def add_pulses_to_energy_counter(pulses=1):
     with db_session:
         try:
-            item = EnergyCounterPulses(date=datetime.datetime.now(), pulses=pulses)
-            print(datetime.datetime.now())
+            item = EnergyCounterPulses(date=datetime.now(), pulses=pulses)
+            print(datetime.now())
             return {'pulsesAdded': pulses}, 200
         except:
             print('Error adding to db')
